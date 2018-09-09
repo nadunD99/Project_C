@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+void main()
+{
+	int i=0,x=0;
+		while(i<20)
+		{
+				if(i%5==0)
+				{
+				x+=i;
+				printf("  %d",x);
+				}
+				++i;
+		}
+	printf("\n x = %d",x);getch();
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int no,Total,counter;
+	float avg;
+	 counter = 1;
+	 Total = 0;
+	 
+	 while(counter<=10)
+	 {
+	 	printf("Enter Number =    \n");
+	 	scanf("%d",&no);
+	 	Total=Total+no;
+	 	counter ++;
+	 }
+	
+}
